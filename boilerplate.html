@@ -3,8 +3,11 @@
   
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="x-apple-disable-message-reformatting">
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--<![endif]-->
   <meta name="color-scheme" content="light dark">
   <meta name="supported-color-schemes" content="light dark">
   
@@ -16,9 +19,10 @@
 
     /* RESET STYLES*/
     body { width: 100%!important; height: 100%!important; margin: 0!important; padding: 0!important; }
-    table { border-collapse: collapse!important; }
+    table { border-collapse: collapse!important;border: 0;border-spacing: 0;margin: 0; }
     img { border: 0; border-width: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-    td { padding: 0; }
+    div, td { padding: 0; }
+    div { margin: 0!important; }
 
     /* STYLES */
     h1, h2, h3, p, a { margin: 0;padding: 0; }
@@ -33,11 +37,21 @@
     }
   </style> 
 
-  <!--[if (gte mso 9)|(IE)]>
-    <style type="text/css">
-        table {border-collapse: collapse!important;}
-    </style>
-  <![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+table {border-collapse: collapse!important;border: 0;border-spacing: 0;margin:0; }
+div, td {padding: 0; }
+div {margin: 0!important; }
+</style>
+
+<noscript> 
+<xml> 
+<o:OfficeDocumentSettings> 
+<o:PixelsPerInch>96</o:PixelsPerInch> 
+</o:OfficeDocumentSettings> 
+</xml> 
+</noscript> 
+<![endif]-->
   
 </head>
 
@@ -53,11 +67,13 @@
     <center style="width: 100%;table-layout: fixed;background-color: #DDE0E1;padding-bottom: 40px;">
         <div style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);max-width: 600px;background-color: #FAFDFE;">
 
+
         <!-- HIDDEN PREHEADER TEXT (remove comment before deployment)-->
             <div style="display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide: all;mso-line-height-rule: exactly;color: #FAFDFE;font-size: 1px;line-height: 1px;font-family: sans-serif, Arial, Helvetica;">
                 <!-- ADD PREHEADER TEXT HERE (85-100 CHARACTERS IN LENGTH) -->
             </div>
         <!-- END PREHEADER TEXT —>
+
 
         <!-- START OF EMAIL -->
             <!--[if (gte mso 9)|(IE)]>
